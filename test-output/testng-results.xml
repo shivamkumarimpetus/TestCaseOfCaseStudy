@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-08T11:12:27 IST" name="Default suite" finished-at="2021-11-08T11:12:34 IST" duration-ms="7394">
+    <groups>
+    </groups>
+    <test started-at="2021-11-08T11:12:27 IST" name="Default test" finished-at="2021-11-08T11:12:34 IST" duration-ms="7394">
+      <class name="CaseStudyAllTestone.casestudytestcases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:CaseStudyAllTestone.casestudytestcases@31e5415e]" started-at="2021-11-08T11:12:26 IST" name="setup" finished-at="2021-11-08T11:12:27 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_01()[pri:1, instance:CaseStudyAllTestone.casestudytestcases@31e5415e]" started-at="2021-11-08T11:12:27 IST" name="test_01" finished-at="2021-11-08T11:12:28 IST" duration-ms="1223" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [500] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [500] but found [200]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:907)
+at org.testng.Assert.assertEquals(Assert.java:917)
+at CaseStudyAllTestone.casestudytestcases.test_01(casestudytestcases.java:72)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01 -->
+        <test-method signature="test_02()[pri:2, instance:CaseStudyAllTestone.casestudytestcases@31e5415e]" started-at="2021-11-08T11:12:28 IST" name="test_02" finished-at="2021-11-08T11:12:28 IST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_02 -->
+        <test-method signature="test_04()[pri:3, instance:CaseStudyAllTestone.casestudytestcases@31e5415e]" started-at="2021-11-08T11:12:28 IST" name="test_04" finished-at="2021-11-08T11:12:28 IST" duration-ms="57" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_04 -->
+        <test-method signature="test_05()[pri:4, instance:CaseStudyAllTestone.casestudytestcases@31e5415e]" started-at="2021-11-08T11:12:28 IST" name="test_05" finished-at="2021-11-08T11:12:28 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_05 -->
+        <test-method signature="test_03()[pri:5, instance:CaseStudyAllTestone.casestudytestcases@31e5415e]" started-at="2021-11-08T11:12:28 IST" name="test_03" finished-at="2021-11-08T11:12:34 IST" duration-ms="5953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_03 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:CaseStudyAllTestone.casestudytestcases@31e5415e]" started-at="2021-11-08T11:12:34 IST" name="tearDown" finished-at="2021-11-08T11:12:35 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CaseStudyAllTestone.casestudytestcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
