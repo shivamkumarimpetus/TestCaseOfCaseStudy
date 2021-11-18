@@ -5,8 +5,8 @@
     <classes>
       <class name="utils.ExcelDataProvider">
         <methods>
-          <include name="tearDown"/>
-          <include name="test" invocation-numbers="16 17 18 19"/>
+          <include name="test1"/>
+          <include name="test2"/>
           <include name="setup"/>
         </methods>
       </class> <!-- utils.ExcelDataProvider -->
