@@ -134,9 +134,9 @@ public class casestudytestcases {
 		JSONObject json = new JSONObject();
 
 
-		json.put("fullName" ,"shivamkumarsingh");
-		json.put("emailId" ,"shivamkumarkush@gmail.com");
-		json.put("writerId" ,"uw6");
+		json.put("fullName" ,"shivamkumarasingh");
+		json.put("emailId" ,"shivamkumarkusha@gmail.com");
+		json.put("writerId" ,"uw88");
 		json.put("password","123456000");
 		request.body(json.toJSONString());
 		Response response = request.post("/createUW");
@@ -176,8 +176,8 @@ public class casestudytestcases {
 			
 			
 			json.put("fullName" ,"vaishali");
-			json.put("emailId" ,"vaishali.r.sharmaa@gmail.com");
-			json.put("adminId" ,"Admin5");
+			json.put("emailId" ,"vaishali.r.sharmaaaa@gmail.com");
+			json.put("adminId" ,"Admin90");
 			json.put("password","123456000");
 			request.body(json.toJSONString());
 			Response response = request.post("/createadmin");
@@ -212,9 +212,9 @@ public class casestudytestcases {
 	        request.header("content-Type" , "application/json");
 			JSONObject json = new JSONObject();
 			
-			json.put("firstName", "payal");
-			json.put("lastName", "kumari");
-			json.put("emailId" ,"kmpayal1@gmail.com");
+			json.put("firstName", "payall");
+			json.put("lastName", "kumarii");
+			json.put("emailId" ,"kmpayal11@gmail.com");
 			json.put("password","123456000");
 			request.body(json.toJSONString());
 			Response response = request.post("/registeruser");
