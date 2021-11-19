@@ -179,8 +179,8 @@ public class ExcelDataProvider {
 		if(code == 200) {
 
 			test3.log(Status.INFO, "The Actual Status Code found is "+" " + code +" "+ "and 200 Expected");
-			test3.log(Status.INFO, "The Email of the UnderWriter is  " + Email);
-			test3.log(Status.INFO, "The User Id of Underwriter is  " + adminId);
+			test3.log(Status.INFO, "The Email of the Admin is  " + Email);
+			test3.log(Status.INFO, "The User Id of Admin is  " + adminId);
 			test3.info("the Credentials of the new Admin is being validating");
 			test3.log(Status.PASS, "Admin Created Successfully");
 			Assert.assertEquals(code, 200);
@@ -189,8 +189,8 @@ public class ExcelDataProvider {
 		{
 
 			test3.info("This Admin with these credentials Already Present in Database still how it is able to Signup");
-			test3.log(Status.INFO, "The Email of the UnderWriter is  " + Email);
-			test3.log(Status.INFO, "The User Id of Underwriter is  " + adminId);
+			test3.log(Status.INFO, "The Email of the Admin is  " + Email);
+			test3.log(Status.INFO, "The User Id of Admin is  " + adminId);
 			test3.log(Status.INFO, "The Actual Status Code found is "+ ""+ code + " " +" but 200 Expected");
 			test3.log(Status.FAIL, "The Admin Already Exist" + "Underwriter Already Existed");
 			Assert.assertEquals(code, 200);
