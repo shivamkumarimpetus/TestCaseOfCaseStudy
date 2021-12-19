@@ -94,7 +94,7 @@ public class ExcelDataProvider {
 
 
 	@Test(priority =1,dataProvider = "test1data")
-	void test(String firstName , String lastName , String  Email,  String Password ) {
+	void test(String firstName , String lastName , String dateOfBirth, String  Email,  String Password ) {
 
 
 
@@ -105,6 +105,7 @@ public class ExcelDataProvider {
 
 		json.put("firstName", firstName);
 		json.put("lastName", lastName);
+		json.put("dateOfBirth", dateOfBirth);
 		json.put("emailId" ,Email);
 		json.put("password",Password);
 		request.body(json.toJSONString());
@@ -262,7 +263,7 @@ public class ExcelDataProvider {
 
 	@DataProvider(name = "test1data")
 	public static Object getData() {
-		String excelPath = "D:\\Selenium Scripts for Testing\\maven-testng\\data\\Testdata.xlsx";
+		String excelPath = "C:\\Users\\shivam.kumar\\Desktop\\testCasesOfcaseStudy\\data\\Testdata.xlsx";
 		Object data[][] = testData(excelPath , "sheet1");
 		return data;
 
@@ -271,7 +272,7 @@ public class ExcelDataProvider {
 
 	@DataProvider(name = "test2data")
 	public static Object getData1() {
-		String excelPath = "D:\\Selenium Scripts for Testing\\maven-testng\\data\\Testdata.xlsx";
+		String excelPath = "C:\\Users\\shivam.kumar\\Desktop\\testCasesOfcaseStudy\\data\\Testdata.xlsx";
 		Object data[][] = testData1(excelPath , "userLoginSheet");
 		return data;
 	}
@@ -279,13 +280,13 @@ public class ExcelDataProvider {
 
 	@DataProvider(name = "test3data")
 	public static Object getData2() {
-		String excelPath = "D:\\Selenium Scripts for Testing\\maven-testng\\data\\Testdata.xlsx";
+		String excelPath = "C:\\Users\\shivam.kumar\\Desktop\\testCasesOfcaseStudy\\data\\Testdata.xlsx";
 		Object data[][] = testData2(excelPath , "createUnderWriterSheet");
 		return data;
 	}
 	@DataProvider(name = "test4data")
 	public static Object getData3() {
-		String excelPath = "D:\\Selenium Scripts for Testing\\maven-testng\\data\\Testdata.xlsx";
+		String excelPath = "C:\\Users\\shivam.kumar\\Desktop\\testCasesOfcaseStudy\\data\\Testdata.xlsx";
 		Object data[][] = testData3(excelPath , "createAdminSheet");
 		return data;
 	}
